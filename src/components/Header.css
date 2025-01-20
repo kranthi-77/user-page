@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    align-items: center;
+    border-bottom: none;
+    background-color: #f8f9fa;
+    position: sticky; 
+    top: 0;
+  }
+
+  .toggle-button {
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+  }
+
+  .light-icon {
+    height: 30px;
+    width: 30px;
+    fill: white;
+
+  }
+  .dark-icon {
+    height: 30px;
+    width: 30px;
+    fill: black;
+  }
+
+  .dark {
+    background-color: #333;
+    color: white;
+  }
+  .light {
+    background-color: white;
+    color: black;
+  }
+  
