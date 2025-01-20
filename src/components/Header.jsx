@@ -8,7 +8,7 @@ const Header = () => {
 
   return (
     <header className={`header ${darkMode ? "dark" : "light"}`}>
-      <h1>Users List</h1>
+      <h1>Users</h1>
       <button className="toggle-button" onClick={toggleDarkMode}>
         {darkMode ? <BsMoonStars className="light-icon"/> : <BsMoonStarsFill className="dark-icon"/>}
       </button>
